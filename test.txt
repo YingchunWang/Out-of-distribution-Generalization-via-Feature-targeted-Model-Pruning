@@ -1,0 +1,52 @@
+2022-06-14 18:29:08,831[INFO]: 	batch_size: 500
+2022-06-14 18:29:08,831[INFO]: 	clamp_max: 1000.0
+2022-06-14 18:29:08,831[INFO]: 	early_loss_mean: True
+2022-06-14 18:29:08,831[INFO]: 	epochs: 160
+2022-06-14 18:29:08,831[INFO]: 	erm_amount: 1.0
+2022-06-14 18:29:08,831[INFO]: 	eval_interval: 10
+2022-06-14 18:29:08,831[INFO]: 	fine_tune_epochs: 101
+2022-06-14 18:29:08,831[INFO]: 	gpu: 1
+2022-06-14 18:29:08,831[INFO]: 	grayscale_model: False
+2022-06-14 18:29:08,831[INFO]: 	hidden_dim: 256
+2022-06-14 18:29:08,831[INFO]: 	l2_regularizer_weight: 0.001
+2022-06-14 18:29:08,832[INFO]: 	lbd: 0.1
+2022-06-14 18:29:08,832[INFO]: 	lr: 0.1
+2022-06-14 18:29:08,832[INFO]: 	mse: False
+2022-06-14 18:29:08,832[INFO]: 	penalty_anneal_iters: 100
+2022-06-14 18:29:08,832[INFO]: 	penalty_weight: 10000.0
+2022-06-14 18:29:08,832[INFO]: 	plot: False
+2022-06-14 18:29:08,832[INFO]: 	polar: True
+2022-06-14 18:29:08,832[INFO]: 	print_eval_intervals: True
+2022-06-14 18:29:08,832[INFO]: 	rex: True
+2022-06-14 18:29:08,832[INFO]: 	save_numpy_log: False
+2022-06-14 18:29:08,832[INFO]: 	scheduler: [80, 120]
+2022-06-14 18:29:08,832[INFO]: 	squeeze_rate: 2
+2022-06-14 18:29:08,832[INFO]: 	steps: 501
+2022-06-14 18:29:08,832[INFO]: 	target_remain_rate: 0.65
+2022-06-14 18:29:08,832[INFO]: 	test_env__color_noise: 0.2
+2022-06-14 18:29:08,832[INFO]: 	thre_cls: 0.5
+2022-06-14 18:29:08,832[INFO]: 	thre_freq: 1
+2022-06-14 18:29:08,832[INFO]: 	thre_init: -10000.0
+2022-06-14 18:29:08,832[INFO]: 	train_env_1__color_noise: 0.8
+2022-06-14 18:29:08,832[INFO]: 	train_env_2__color_noise: 0.9
+2022-06-14 18:29:08,832[INFO]: 	train_set_size: 50000
+2022-06-14 18:29:26,948[INFO]: epoch: [0]	Train Loss 0.513	Train Acc@1 85.800	test_acc Acc@1 46.150	
+2022-06-14 18:30:25,717[INFO]: epoch: [10]	Train Loss 0.623	Train Acc@1 88.500	test_acc Acc@1 51.650	
+2022-06-14 18:31:24,329[INFO]: epoch: [20]	Train Loss 0.579	Train Acc@1 89.700	test_acc Acc@1 53.960	
+2022-06-14 18:32:22,977[INFO]: epoch: [30]	Train Loss 0.540	Train Acc@1 90.500	test_acc Acc@1 56.005	
+2022-06-14 18:33:21,850[INFO]: epoch: [40]	Train Loss 0.498	Train Acc@1 91.700	test_acc Acc@1 57.660	
+2022-06-14 18:34:20,390[INFO]: epoch: [50]	Train Loss 0.457	Train Acc@1 92.800	test_acc Acc@1 59.100	
+2022-06-14 18:35:19,084[INFO]: epoch: [60]	Train Loss 0.426	Train Acc@1 92.800	test_acc Acc@1 60.155	
+2022-06-14 18:36:17,634[INFO]: epoch: [70]	Train Loss 0.385	Train Acc@1 94.600	test_acc Acc@1 61.415	
+2022-06-14 18:37:16,365[INFO]: epoch: [80]	Train Loss 0.347	Train Acc@1 95.200	test_acc Acc@1 62.500	
+2022-06-14 18:38:14,977[INFO]: epoch: [90]	Train Loss 0.310	Train Acc@1 95.700	test_acc Acc@1 63.505	
+2022-06-14 18:39:14,731[INFO]: epoch: [100]	Train Loss 0.271	Train Acc@1 96.300	test_acc Acc@1 64.270	
+2022-06-14 18:40:14,029[INFO]: epoch: [110]	Train Loss 0.234	Train Acc@1 97.400	test_acc Acc@1 64.595	
+2022-06-14 18:41:13,037[INFO]: epoch: [120]	Train Loss 0.198	Train Acc@1 98.000	test_acc Acc@1 64.920	
+2022-06-14 18:42:12,101[INFO]: epoch: [130]	Train Loss 0.169	Train Acc@1 98.600	test_acc Acc@1 65.455	
+2022-06-14 18:43:11,198[INFO]: epoch: [140]	Train Loss 0.146	Train Acc@1 99.000	test_acc Acc@1 65.690	
+2022-06-14 18:44:10,104[INFO]: epoch: [150]	Train Loss 0.124	Train Acc@1 99.300	test_acc Acc@1 65.555	
+2022-06-14 18:45:02,889[INFO]: highest test acc this run: 0.0
+2022-06-14 18:45:02,890[INFO]: Final train acc (mean/std across restarts so far): 159 / 99.69999694824219
+2022-06-14 18:45:02,890[INFO]: Final test acc (mean/std across restarts so far): 65.55500030517578 / 0.0
+2022-06-14 18:45:02,890[INFO]: Highest test acc (mean/std across restarts so far): 0.0 / 0.0
